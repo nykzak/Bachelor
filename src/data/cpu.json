@@ -1,0 +1,25 @@
+[
+    {
+      "title" : "i9-10900k",
+      "price" : 300,
+      "img" : "http://localhost:8888/bakServer/img/src/conf/parts/cpu1.png",
+      "descr" : "Серии: Intel Core i9 Тактовая частота: 5300 МГц Ядер: 10 Сокет: LGA 1200 Мощность в ваттах: 125 Вт",
+      "altImg" : "cpu",
+      "dataSet": "data-cpu1",
+      "dataSetForCalc": "data-cpuPrice1",
+      "category" : "cpu",
+      "refreshPreview": true
+    },
+    {
+        "title" : "i7-10700k",
+        "price" : 250,
+        "img" : "http://localhost:8888/bakServer/img/src/conf/parts/cpu2.png",
+        "descr" : "Серии: Intel Core i7 Тактовая частота: 5100 МГц Ядер: 8 Сокет: LGA 1200 Мощность в ваттах: 95 Вт",
+        "altImg" : "cpu",
+        "dataSet": "data-cpu2",
+        "dataSetForCalc": "data-cpuPrice2",
+        "category" : "cpu",
+        "refreshPreview": true
+      }
+
+]

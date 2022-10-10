@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GreyPC</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<header class="home-header">
+       
+    <div class="top-line">
+        <div class="top-line__decoration top-line__decoration-fix"></div>
+       <div class="top-line__links">
+    
+                <a class="top-line__link"  href="./configurator.html">Конфигуратор</a>
+                <a class="top-line__link"  href="./models.html">Модели</a>
+                <a class="top-line__link"  href="./upgrade.html">Улучшение</a>
+                <a class="top-line__link"  href="./about.html">О нас</a>
+              
+     </div>
+     <div class="top-line__decoration"></div>
+        <span class="top-line__main_header"><a href="./index.html">GreyPC</a></span>
+        <div class="top-line__decoration"></div>
+        <div class="top-line__contacts">
+            <span class="top-line__address">Адрес: <span class="top-line__text">Gravas iela 18</span></span>
+            <span class="top-line__city"><span class="top-line__text"><img src="img/src/telegram.svg" class="top-line__pictures" alt="city">Рига</span></span>
+            <span class="top-line__numbers"><img src="img/src/phone.svg" class="top-line__pictures" alt="number">+37125525292</span>
+        </div>
+        <div class="top-line__decoration"></div>
+    </div>
+
+    <div class="home-header__content">
+
+        <aside class="home-aside">
+
+            <div class="home-aside__decoration"></div>
+            <div class="home-aside__soc">
+                <div class="home-aside__soc-items">
+                    <a href="https://www.instagram.com/webdesign.master" class="soc-item" target="_blank"><img src="img/src/soc/instagram-brands.svg" alt="Instagram"></a>
+                    <a href="https://vk.com/agragregra" class="soc-item" target="_blank"><img src="img/src/soc/vk-brands.svg" alt="ВКонтакте"></a>
+                    <a href="https://vk.com/agragregra" class="soc-item" target="_blank"><img src="img/src/soc/facebook-f-brands.svg" alt="Facebook"></a>
+                    <a href="https://twitter.com/agragregra" class="soc-item" target="_blank"><img src="img/src/soc/twitter-brands.svg" alt="Twitter"></a>
+                </div>
+            </div>
+
+        </aside>
+
+       
+
+
+        <div class="upgrade__container">
+            <div class="upgrade__header"> Улучшение от<span>GreyPC</span></div>
+
+            <div class="upgrade__content">
+                <div class="upgrade__card">
+                  
+                    <div class="upgrade__card_header">Скидка 30% на работы специалистов GreyPC центра</div>
+                    <div class="upgrade__card_text">Наша работа будет для Вас дешевле на 30%.</div>
+                </div>
+                <div class="upgrade__card">
+         
+                    <div class="upgrade__card_header">Скидка 10% на комплектующие</div>
+                    <div class="upgrade__card_text">Закажите Улучшение в нашем центре сейчас - получите скидку на выбранные комплектующие</div>
+                </div>
+                <div class="upgrade__card">
+             
+                    <div class="upgrade__card_header">Работы только после полного согласования с заказчиком</div>
+                    <div class="upgrade__card_text">Все работы только после подписания задач.Строго по клиента пожеланиям.</div>
+                </div>
+                <div class="upgrade__card">
+                
+                    <div class="upgrade__card_header">Бесплатная профессиональная чистка и продув системы</div>
+                    <div class="upgrade__card_text">Всем клиентам гарантируем частоту системы.</div>
+                </div>
+                
+                
+            </div>
+           
+            <button  class="button button_slider upgrade__card_button"><span class="button__text">Заказать улучшение</span></button>
+        </div>
+
+
+
+           
+             
+
+          
+
+    </div>
+
+    <div class="popup_upgrade1">
+        <div class="popup_dialog">
+            <div class="popup_upgrade_content1">
+                <button type="button" class="popup_upgrade_close1" ><strong>&times;</strong></button>
+                <div class="popup_upgrade_form1">
+                    <div class="popup_upgrade_header">Улучшение от <span>GreyPC</span></div>
+                    <form action="#">
+                        <div class="form__content upgrade__modal">
+                            
+                            <input class="form-input modal__input form__content-style" type="text" name="Name" placeholder="Контактное лицо" required>
+                            <input class="form-input modal__input form__content-style" type="text" name="Email" placeholder="Электронная почта" required>
+                            <input class="form-input modal__input form__content-style" type="text" name="Country" placeholder="Страна" required>
+                            <input class="form-input modal__input form__content-style" type="text" name="Address" placeholder="Адрес доставки" required>
+                            <input class="form-input modal__input form__content-style" type="text" name="Number" placeholder="Номер телефона" required>
+                        </div>
+                        <input type="submit"  class="button button_slider upgrade__card_button_modal">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    const modalSelect = document.querySelector(".popup_upgrade1");
+    const triggerSelector = document.querySelector(".upgrade__card_button");
+    const closeTrigger = document.querySelector('.popup_upgrade_close1');
+    let opened = false;
+
+    triggerSelector.addEventListener('click', (e) => {
+        opened = true;
+        if(e.target) {
+            e.preventDefault();
+        }
+        modalSelect.style.display = "block";
+    });
+
+    closeTrigger.addEventListener('click',() => {
+        modalSelect.style.display = "none";
+    });
+
+    modalSelect.addEventListener('click', (e) => {
+        if (e.target === modalSelect){
+            modalSelect.style.display = "none";
+        }
+    });
+
+    document.addEventListener('keydown', (e) => {
+        let code = e.code;
+        if(code === "Escape" && opened === true){
+            modalSelect.style.display = "none";
+            opened = false;
+        }
+    });
+    </script>
+</header>

@@ -1,0 +1,25 @@
+
+[
+    {
+      "title" : "Be quiet! Silent Base 601 (black)",
+      "price" : 75,
+      "img" : "http://localhost:8888/bakServer/img/src/conf/parts/korpus1.png",
+      "descr" : "Размер: Mid Tower Мат.плата: Mini-ITX, Micro-ATX, S-ATX, E-ATX Размер БП: ATX Максимальная длина БП: 288 мм Максимальная длина видеокарты: 449 мм  Максимальная длина ЦП : 185 мм  Макс. вентиляторов охлаждения радиоатора: 3x120мм 3x140мм",
+      "altImg" : "korpus",
+      "dataSet": "data-korpus1",
+      "dataSetForCalc": "data-korpusPrice1",
+      "category" : "korpus",
+      "refreshPreview": true
+    },
+    {
+        "title" : "Raijinten Asterion PLUS  (White)",
+        "price" : 90,
+        "img" : "http://localhost:8888/bakServer/img/src/conf/parts/korpus2.png",
+        "descr" : "Размер: Mid Tower Мат.плата: Mini-ITX, Micro-ATX, S-ATX, E-ATX Размер БП: ATX Максимальная длина БП: 250 мм Максимальная длина видеокарты: 340 мм  Максимальная длина ЦП : 180 мм  Макс. вентиляторов охлаждения радиоатора: 3x120мм 2x140мм",
+        "altImg" : "korpus",
+        "dataSet": "data-korpus2",
+        "dataSetForCalc": "data-korpusPrice2",
+        "category" : "korpus",
+        "refreshPreview": true
+      }
+]

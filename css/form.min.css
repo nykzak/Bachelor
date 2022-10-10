@@ -1,0 +1,20 @@
+.form-input {
+  display: block;
+  background-color: #303030;
+  border: #424242 1px solid;
+  padding: 12px 18px;
+  min-width: 280px;
+  color: #fff;
+  font-size: 15px;
+  -webkit-transition: border .25s ease-in;
+  transition: border .25s ease-in;
+}
+
+.form-input:focus {
+  border: #636363 1px solid;
+}
+
+textarea.form-input {
+  min-height: 100px;
+}
+/*# sourceMappingURL=form.min.css.map */

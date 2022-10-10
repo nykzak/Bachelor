@@ -1,0 +1,25 @@
+
+[
+      {
+        "title" : "Be quiet! Silent Loop 240mm",
+        "price" : 200,
+        "img" : "http://localhost:8888/bakServer/img/src/conf/parts/voda1.png",
+        "descr" : "Тип: Жидкостная система охлаждения Циркуляция воздуха в корпусе: 75 куб фт/мин Размер: 240мм",
+        "altImg" : "cooler",
+        "dataSet": "data-voda1",
+        "dataSetForCalc": "data-coolerPrice3",
+        "category" : "voda",
+        "refreshPreview": true
+      },
+      {
+        "title" : "Be quiet! Silent Loop 360mm",
+        "price" : 300,
+        "img" : "http://localhost:8888/bakServer/img/src/conf/parts/voda2.png",
+        "descr" : "Тип: Жидкостная система охлаждения Циркуляция воздуха в корпусе: 130 куб фт/мин Размер: 360мм",
+        "altImg" : "cooler",
+        "dataSet": "data-voda2",
+        "dataSetForCalc": "data-coolerPrice2",
+        "category" : "voda",
+        "refreshPreview": true
+      }
+]

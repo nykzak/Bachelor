@@ -1,0 +1,25 @@
+
+[
+    {
+      "title" : "Z490 AORUS Xtreme",
+      "price" : 250,
+      "img" : "http://localhost:8888/bakServer/img/src/conf/parts/mother1.png",
+      "descr" : "Подсветка: RGB Чипсет: Z490 Сокет: LGA 1200 Тип RAM: DDR4 Форм-фактор: E-ATX Макс.скорость оперативной памяти: 5000 МГц Дополнительные видеокарты: CrossFire/SLI",
+      "altImg" : "mother",
+      "dataSet": "data-mother1",
+      "dataSetForCalc": "data-motherPrice1",
+      "category" : "mother",
+      "refreshPreview": true
+    },
+    {
+        "title" : "Z590 AORUS Xtreme",
+        "price" : 300,
+        "img" : "http://localhost:8888/bakServer/img/src/conf/parts/mother2.png",
+        "descr" : "Подсветка: RGB Чипсет: Z590 Сокет: LGA 1200 Тип RAM: DDR4 Форм-фактор: S-ATX Макс.скорость оперативной памяти: 5400 МГц Дополнительные видеокарты: CrossFire/SLI",
+        "altImg" : "mother",
+        "dataSet": "data-mother2",
+        "dataSetForCalc": "data-motherPrice2",
+        "category" : "mother",
+        "refreshPreview": true
+      }
+]

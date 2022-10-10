@@ -1,0 +1,35 @@
+[
+    {
+      "title" : "Seagate Barracuda 2TB",
+      "price" : 90,
+      "img" : "http://localhost:8888/bakServer/img/src/conf/parts/hdd1.png",
+      "descr" : "Тип: HDD Размер: 2TB Скорость передачи: 210 МБ/с",
+      "altImg" : "hdd",
+      "dataSet": "data-hdd1",
+      "dataSetForCalc": "data-hddPrice1",
+      "category" : "hdd",
+      "refreshPreview": true
+    },
+    {
+        "title" : "Seagate Barracuda 4TB",
+        "price" : 150,
+        "img" : "http://localhost:8888/bakServer/img/src/conf/parts/hdd2.png",
+        "descr" : "Тип: HDD Размер: 4TB Скорость передачи: 210 МБ/с",
+        "altImg" : "hdd",
+        "dataSet": "data-hdd2",
+        "dataSetForCalc": "data-hddPrice2",
+        "category" : "hdd",
+        "refreshPreview": false
+      },
+      {
+      "title" : "Adata XPG Spectrix 1TB",
+      "price" : 180,
+      "img" : "http://localhost:8888/bakServer/img/src/conf/parts/ssd1.png",
+      "descr" : "Тип: SSD Размер: 1TB Скорость передачи: 3250 МБ/с",
+      "altImg" : "sdd",
+      "dataSet": "data-hdd3",
+      "dataSetForCalc": "data-hddPrice3",
+      "category" : "ssd",
+      "refreshPreview": false
+    }
+    ]

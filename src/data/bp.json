@@ -1,0 +1,27 @@
+
+[
+    {
+      "title" : "Cooler Master v750 Gold",
+      "price" : 150,
+      "img" : "http://localhost:8888/bakServer/img/src/conf/parts/bp1.png",
+      "descr" : "Мощность в ваттах: 750 Вт Длина: 160мм Тип: Модульный Форм-фактор: ATX",
+      "altImg" : "bp",
+      "dataSet": "data-bp1",
+      "dataSetForCalc": "data-bpPrice1",
+      "category" : "bp",
+      "refreshPreview": false
+    },
+    {
+        "title" : "Cooler Master v850 Gold",
+        "price" : 200,
+        "img" : "http://localhost:8888/bakServer/img/src/conf/parts/bp1.png",
+        "descr" : "Мощность в ваттах: 850 Вт Длина: 160мм Тип: Модульный Форм-фактор: ATX",
+        "altImg" : "bp",
+        "dataSet": "data-bp2",
+        "dataSetForCalc": "data-bpPrice2",
+        "category" : "bp",
+        "refreshPreview": false
+      }
+]
+
+

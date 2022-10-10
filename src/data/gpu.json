@@ -1,0 +1,29 @@
+
+[
+    {
+      "title" : "RTX 3080",
+      "price" : 900,
+      "img" : "http://localhost:8888/bakServer/img/src/conf/parts/gpu1.png",
+      "descr" : "Объем виртуальной памяти: 10 ГБ Частота ядра: 1710 МГц Частота памяти: 1188 МГц Длина: 285 мм Мощность в ваттах: 320 Вт",
+      "altImg" : "gpu",
+      "dataSet": "data-gpu1",
+      "dataSetForCalc": "data-gpuPrice1",
+      "category" : "gpu",
+      "refreshPreview": true
+    },
+    {
+        "title" : "RTX 3070",
+        "price" : 750,
+        "img" : "http://localhost:8888/bakServer/img/src/conf/parts/gpu2.png",
+        "descr" : "Объем виртуальной памяти: 8 ГБ Частота ядра: 1725 МГц Частота памяти: 1750 МГц Длина: 267 мм Мощность в ваттах: 220 Вт",
+        "altImg" : "gpu",
+        "dataSet": "data-gpu2",
+        "dataSetForCalc": "data-gpuPrice2",
+        "category" : "gpu",
+        "refreshPreview": true
+      }
+
+
+]
+
+

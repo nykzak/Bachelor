@@ -1,0 +1,25 @@
+
+[
+    {
+      "title" : "Corsair Vengeance LPX 16gb",
+      "price" : 100,
+      "img" : "http://localhost:8888/bakServer/img/src/conf/parts/ram1.png",
+      "descr" : "Тип RAM: DDR4 Тактовая частота: 3200 МГц",
+      "altImg" : "ram",
+      "dataSet": "data-ram1",
+      "dataSetForCalc": "data-ramPrice1",
+      "category" : "ram",
+      "refreshPreview": true
+    },
+    {
+        "title" : "Corsair Vengeance LPX 8gb",
+        "price" : 90,
+        "img" : "http://localhost:8888/bakServer/img/src/conf/parts/ram1.png",
+        "descr" : "Тип RAM: DDR4 Тактовая частота: 3200 МГц",
+        "altImg" : "ram",
+        "dataSet": "data-ram2",
+        "dataSetForCalc": "data-ramPrice2",
+        "category" : "ram",
+        "refreshPreview": false
+      }
+]
